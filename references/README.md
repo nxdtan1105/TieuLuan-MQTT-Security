@@ -1,72 +1,62 @@
 # References
 
-Thư mục này chứa các tài liệu được sử dụng để nghiên cứu và xây dựng
-đề tài:
+Danh sách các tài liệu và nguồn thông tin được sử dụng để xây dựng cơ sở lý thuyết và thực hiện đề tài "Rủi ro khi MQTT không mã hóa".
 
-**Rủi ro khi MQTT không mã hóa**
+## 1. OASIS – MQTT Version 5.0
 
-## 1. MQTT Specification
+**Nội dung tham khảo:**
+- Kiến trúc và nguyên lý hoạt động của MQTT.
+- Mô hình Publish/Subscribe.
+- MQTT Client và MQTT Server/Broker.
+- Topic và Message.
+- Các cơ chế hoạt động của giao thức MQTT.
 
-### MQTT Version 5.0
-
-- Tổ chức: OASIS
-- Nội dung sử dụng:
-  - Kiến trúc MQTT
-  - Mô hình Publish/Subscribe
-  - MQTT Client
-  - MQTT Server/Broker
-  - Topic và Message
-  - Các vấn đề liên quan đến bảo mật
-
-- Link:
-  https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
+**Nguồn:**  
+https://docs.oasis-open.org/mqtt/mqtt/v5.0/
 
 ---
 
-## 2. MQTT Version 3.1.1
+## 2. OASIS – MQTT Version 3.1.1
 
-- Tổ chức: OASIS
-- Nội dung sử dụng:
-  - Security
-  - Xác thực
-  - Phân quyền
-  - TLS
-  - Secure MQTT
-  - Các vấn đề bảo mật khi truyền dữ liệu
+**Nội dung tham khảo:**
+- Cấu trúc và hoạt động của giao thức MQTT.
+- MQTT Control Packet.
+- Cơ chế kết nối giữa Client và MQTT Server.
 
-- Link:
-  https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/
+**Nguồn:**  
+https://docs.oasis-open.org/mqtt/mqtt/v3.1.1/
 
 ---
 
-## 3. NIST
+## 3. NIST – Cybersecurity for IoT
 
-- Tổ chức: National Institute of Standards and Technology
-- Nội dung sử dụng:
-  - Cơ sở tham khảo về bảo mật Internet of Things
-  - Các vấn đề liên quan đến an toàn thiết bị IoT
+**Nội dung tham khảo:**
+- Cơ sở bảo mật cho các hệ thống Internet of Things.
+- Các vấn đề liên quan đến bảo vệ dữ liệu và thiết bị IoT.
+- Các nguyên tắc nâng cao mức độ an toàn cho hệ thống IoT.
 
-- Link:
-  https://www.nist.gov/
-
----
-
-## 4. OWASP IoT
-
-- Tổ chức: OWASP
-- Nội dung sử dụng:
-  - Các rủi ro bảo mật trong hệ thống IoT
-  - Các vấn đề cần xem xét khi xây dựng hệ thống IoT an toàn
-
-- Link:
-  https://owasp.org/
+**Nguồn:**  
+https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program
 
 ---
 
-## 5. Ghi chú
+## 4. OWASP – Internet of Things Project
 
-Các nguồn trong thư mục này sẽ được cập nhật trong quá trình thực hiện
-đề tài.
+**Nội dung tham khảo:**
+- Các vấn đề và rủi ro bảo mật trong môi trường IoT.
+- Các khía cạnh cần xem xét khi đánh giá an toàn cho hệ thống IoT.
 
-Mỗi nguồn được sử dụng trong báo cáo sẽ được ghi rõ phần nội dung
-tham khảo tương ứng.
+**Nguồn:**  
+https://owasp.org/www-project-internet-of-things/
+
+---
+
+## 5. GitHub – Repository của đề tài
+
+Repository GitHub được sử dụng để lưu trữ mã nguồn, tài liệu lý thuyết, hình ảnh, nội dung thực nghiệm và kết quả của đề tài.
+
+**Tên repository:**  
+TieuLuan-MQTT-Security
+
+**Nguồn:**  
+https://github.com/nxdtan1105/TieuLuan-MQTT-Security
